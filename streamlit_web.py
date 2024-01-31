@@ -15,7 +15,7 @@ def app():
     GPT = load_model()
 
     # create chatbot UI
-    st.title("💬 ChatBot Demo")
+    st.title("🤖 ChatBot Demo")
 
     if "questions" not in st.session_state:
         st.session_state["questions"] = []
